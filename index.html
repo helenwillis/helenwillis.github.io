@@ -1,14 +1,83 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Helen Willis</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
-    <!-- <script src='main.js'></script> -->
-</head>
-<body>
-    Helen Willis
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div id="header" class="centered">
+      <div class="header-item large">Helen Willis</div>
+      <div class="flex-spacer"></div>
+      <div class="header-item"><a href="#research">Research</a></div>
+      <div class="header-item"><a href="#cv">CV</a></div>
+    </div>
+    <div id="contents" class="centered">
+      <div class="section">
+        <div class="section-title">About me</div>
+        <div class="section-contents flex-row">
+          <div><img src="/photo.jpg" width="300" /></div>
+          <div>
+            <p>
+              I am a fifth year PhD student in economics at UC Berkeley. My
+              fields are industrial organization, public economics and household
+              finance. Before starting at my PhD, I was a research assistant in
+              the Financial Structure section at the Federal Reserve Board for
+              two years.
+            </p>
+            <p>
+              Email: <span class="monospace">helen_willis@berkeley.edu</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="research">
+        <div class="section-title">Research</div>
+        <div class="section-contents">
+          <div>
+            <p class="large">
+              “Regulation and Market Power: Evidence from the Manufactured
+              Housing Industry”
+            </p>
+            <p>
+              In this paper, I study the mortgage market for manufactured homes
+              (also known as mobile homes) using loan-level Home Mortgage
+              Disclosure Act data. I first document how post-crisis regulations
+              like stress testing worsened market power issues in this market.
+              Regulation raised costs for large banks relative to other lenders.
+              Their total market share subsequently declined from about 25% to
+              less than 5%, and prices increased for borrowers. Meanwhile, the
+              largest nonbank firm in the market grew to have nearly a 40%
+              national market share. I then study a second regulation that
+              improved consumer welfare. In 2014 an interest rate restriction on
+              the highest priced loans lowered interest rates with minimal
+              impact on supply, increasing consumer welfare. I estimate consumer
+              welfare using a logit demand model and will estimate
+              counterfactual welfare under different interest rate restrictions.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="cv">
+        <div class="section-title">CV</div>
+        <div class="section-contents">
+          <div>
+            <p>
+              Click <a href="cv.pdf" download="Helen-Willis-CV.pdf">here</a> to
+              download
+            </p>
+            <iframe
+              src="cv.pdf"
+              allowfullscreen
+              style="width: 100%; height: 800px"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
